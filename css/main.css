@@ -362,9 +362,13 @@ header {
 }
 
 .text-two {
-  color: #FFF;
+  color: #fff;
+
 }
 
+.text-two h2 {
+  padding-top: 1rem;
+}
 
 .title {
   text-align: center;
@@ -459,12 +463,17 @@ button {
 }
 
 .icon-foto img {
-  width: 10rem;
+  width: 5rem;
+}
+
+.icon-foto:hover {
+  transform: scale(1.2);
 }
 
 .icon-foto {
   text-align: center;
   padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 .information h3 {
@@ -509,6 +518,10 @@ button {
 .article-img img {
   width: 100%;
   max-width: 20rem;
+}
+
+.text-three:hover {
+  transform: scale(1.2);
 }
 
 .work {
@@ -576,6 +589,7 @@ button {
 
   .about-text {
     width: 47%;
+    padding-top: 1rem;
   }
 
   .about {
